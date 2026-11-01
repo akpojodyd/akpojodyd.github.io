@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Information about mc_server, a personal Minecraft backup utility using Google Drive.">
+  <title>mc_server — Personal Minecraft Backups</title>
+  <style>
+    :root{color-scheme:light;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#172c30;background:#f5f7f4}
+    *{box-sizing:border-box}body{margin:0}main{max-width:780px;margin:0 auto;padding:48px 24px 64px}nav{display:flex;gap:24px;padding-bottom:32px;border-bottom:1px solid #ccd8d1}a{color:#12634f;text-underline-offset:.2em}nav a{font-weight:650}h1{font-size:clamp(2rem,5vw,3rem);line-height:1.15;letter-spacing:-.035em;margin:36px 0 24px}h2{font-size:1.2rem;margin:28px 0 10px}p{font-size:1.05rem;line-height:1.75;margin:0 0 18px}.eyebrow{font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;color:#47665a;margin:30px 0 0}.note{background:#e8efe9;border-left:4px solid #34775e;padding:18px 20px;margin:26px 0}.note p{margin:0}footer{border-top:1px solid #ccd8d1;margin-top:40px;padding-top:20px;color:#52645e;font-size:.9rem}
+  </style>
+</head>
+<body>
+  <main>
+    <nav aria-label="Main navigation"><a href="./" aria-current="page">mc_server</a><a href="privacy.html">Privacy policy</a></nav>
+    <p class="eyebrow">Personal utility</p>
+    <h1>mc_server — Personal Minecraft Backups</h1>
+    <p>mc_server is a private desktop/server utility operated by its owner to back up a Minecraft world and related server configuration to the owner's Google Drive using rclone. It is not a public hosting service and does not offer accounts to other users.</p>
+    <h2>How backups are handled</h2>
+    <p>Backups are created locally, uploaded to a configured Google Drive folder, and checked for integrity. The utility maintains a limited history of backup archives.</p>
+    <div class="note"><p>The application's Google Drive authorization is broader than the configured backup folder. The folder restriction is enforced by the utility's configuration, not by the OAuth permission itself.</p></div>
+    <p>This website provides information about the utility. It does not provide access to backup archives or collect Google credentials.</p>
+    <h2>Privacy and contact</h2>
+    <p>Read the <a href="privacy.html">privacy policy</a> for details about Google Drive access, storage, retention, and revoking authorization.</p>
+    <p>Contact the operator through <a href="https://github.com/akpojodyd/akpojodyd.github.io/issues">GitHub Issues</a>. Issues are public; please do not include credentials, backup files, or private player information.</p>
+    <footer>mc_server · Personal Minecraft backup utility</footer>
+  </main>
+</body>
+</html>
